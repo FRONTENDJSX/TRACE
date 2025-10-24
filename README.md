@@ -243,10 +243,8 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
 ## 📞 Support
 
-- 📧 Email: support@trace-ai.com
 - 💬 Discord: [Join our community](https://discord.gg/trace-ai)
-- 📖 Documentation: [docs.trace-ai.com](https://docs.trace-ai.com)
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/TRACE/issues)
+- 🐛 Issues: [GitHub Issues](https://github.com/frontendjsx/TRACE/issues)
 
 ---
 
