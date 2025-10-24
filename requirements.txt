@@ -1,0 +1,32 @@
+# TRACE - Technical Recognition and Anatomical Character Engine
+# Core dependencies for facial recognition system
+
+# Web framework for API
+Flask>=2.3.0
+Flask-CORS>=4.0.0
+
+# Computer vision and image processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# AI and machine learning providers
+google-generativeai>=0.3.0
+openai>=1.0.0
+anthropic>=0.7.0
+requests>=2.31.0
+
+# Environment and configuration
+python-dotenv>=1.0.0
+
+# Optional: Enhanced image processing
+# scikit-image>=0.21.0
+# matplotlib>=3.7.0
+
+# Optional: Database support
+# SQLAlchemy>=2.0.0
+# sqlite3 (built-in)
+
+# Optional: Authentication and security
+# cryptography>=41.0.0
+# PyJWT>=2.8.0
