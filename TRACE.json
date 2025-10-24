@@ -1,0 +1,144 @@
+{
+  "sample_user_0001": {
+    "trace_id": "sample_user_0001",
+    "stable_features": {
+      "face_numeric": {
+        "face_height_in": 7.5,
+        "face_width_in": 5.2,
+        "face_length_in": 6.95,
+        "jaw_length_in": 3.5,
+        "jaw_width_in": 4.35,
+        "jaw_angle_deg": 131.25,
+        "jaw_angle_left_deg": 131.75,
+        "jaw_angle_right_deg": 130.75,
+        "cheekbone_width_in": 5.0,
+        "cheekbone_height_in": 2.475,
+        "cheekbone_prominence": 0.575,
+        "interocular_distance_in": 1.175,
+        "eye_width_left_in": 1.1,
+        "eye_width_right_in": 1.1,
+        "eye_height_left_in": 0.475,
+        "eye_height_right_in": 0.475,
+        "eye_depth_left_in": 0.875,
+        "eye_depth_right_in": 0.875,
+        "eye_angle_left_deg": -1.5,
+        "eye_angle_right_deg": 1.5,
+        "nose_length_in": 1.9,
+        "nose_width_in": 1.125,
+        "nose_height_in": 0.925,
+        "nose_bridge_width_in": 0.525,
+        "nose_tip_width_in": 0.7,
+        "nose_angle_deg": 95.0,
+        "nostril_width_in": 0.75,
+        "nostril_height_in": 0.325,
+        "lip_width_in": 1.775,
+        "lip_height_in": 0.55,
+        "lip_thickness_upper_in": 0.2,
+        "lip_thickness_lower_in": 0.3,
+        "lip_angle_deg": 1.25,
+        "lip_curve_deg": 8.75,
+        "forehead_width_in": 4.575,
+        "forehead_height_in": 2.5,
+        "forehead_angle_deg": 85.0,
+        "temple_width_in": 4.55,
+        "temple_depth_in": 0.875,
+        "chin_width_in": 1.7,
+        "chin_height_in": 1.35,
+        "chin_angle_deg": 112.5,
+        "chin_prominence": 0.675,
+        "ear_width_left_in": 1.15,
+        "ear_width_right_in": 1.15,
+        "ear_height_left_in": 2.2,
+        "ear_height_right_in": 2.2,
+        "ear_angle_left_deg": 16.25,
+        "ear_angle_right_deg": 16.25,
+        "eyebrow_width_left_in": 1.7,
+        "eyebrow_width_right_in": 1.7,
+        "eyebrow_height_left_in": 0.325,
+        "eyebrow_height_right_in": 0.325,
+        "eyebrow_angle_left_deg": 7.5,
+        "eyebrow_angle_right_deg": 7.5,
+        "eyebrow_thickness_left": 0.5125,
+        "eyebrow_thickness_right": 0.5125,
+        "eyebrow_arch_left_deg": 16.25,
+        "eyebrow_arch_right_deg": 16.25,
+        "facial_symmetry_score": 0.9025,
+        "face_oval_ratio": 0.7,
+        "face_triangle_ratio": 0.15,
+        "face_square_ratio": 0.0875,
+        "face_heart_ratio": 0.075,
+        "face_diamond_ratio": 0.1625,
+        "face_round_ratio": 0.075
+      },
+      "shape_text": [
+        "jaw_contour: The jawline is moderately defined with a relatively straight angle from the ears towards a subtly tapering chin, giving a lean appearance. The overall shape is more angular than rounded.",
+        "eye_contour: The eyes are almond-shaped with a slight upward tilt at the outer corners. They appear symmetrical, partially obscured by rectangular eyeglass frames.",
+        "nose_contour: The nose has a straight, relatively narrow bridge that widens slightly towards a moderately rounded, well-defined tip. The nostrils are visible and proportionate to the nose width.",
+        "lip_contour: The lips are of medium fullness with a well-defined cupid's bow on the upper lip. The overall shape is relatively straight in a neutral expression, with the lower lip appearing slightly fuller than the upper.",
+        "forehead_contour: The forehead is of average height and width, appearing smooth and gently rounded without significant creases or prominent brow ridges.",
+        "cheek_contour: The cheekbones are visible but not overly prominent, contributing to a lean and defined mid-face. There is a slight hollow beneath the cheekbones.",
+        "chin_contour: The chin is moderately pointed and proportionate to the rest of the face, not overly broad or recessed, adding to the slightly elongated face shape.",
+        "ear_contour: The ears are partially visible behind the hair and glasses. They appear to be of average size, set close to the head, with attached earlobes.",
+        "eyebrow_contour: The eyebrows are moderately thick, dark, and well-groomed. They have a subtle, natural arch, starting relatively straight and gently curving downwards towards the temples."
+      ],
+      "colors": {
+        "hair_rgb": [51, 37, 28],
+        "eye_rgb": [33, 22, 18],
+        "skin_rgb": [179, 143, 122],
+        "eyebrow_rgb": [51, 37, 28],
+        "lip_rgb": [136, 92, 79]
+      }
+    },
+    "transient_features": {
+      "expression": {
+        "current": "neutral",
+        "weight": 0.0,
+        "update_method": "moving_average"
+      },
+      "accessories": {
+        "glasses": {
+          "observed_frequency": 1.0,
+          "description": "Black, thick-rimmed rectangular glasses.",
+          "weight": 0.02
+        }
+      }
+    },
+    "image_references": [
+      "images/sample_user_0001/scan_001.jpg",
+      "images/sample_user_0001/scan_002.jpg"
+    ],
+    "recognition_metadata": {
+      "last_seen": "2025-01-01T00:00:00.000000Z",
+      "confidence_score": 0.88,
+      "matched_features": {
+        "anatomical": 1.0,
+        "accessories": 0.0,
+        "expression": 0.0
+      }
+    },
+    "age_estimation": {
+      "estimated_age": 25,
+      "age_confidence": 0.85,
+      "age_range": "23-27",
+      "age_indicators": [
+        "facial_bone_structure",
+        "skin_texture",
+        "eye_area",
+        "jaw_development",
+        "cheekbone_prominence",
+        "facial_maturity",
+        "youth_indicators"
+      ],
+      "detailed_analysis": {
+        "facial_bone_development": "mature",
+        "skin_quality": "youthful",
+        "eye_area": "mature",
+        "jaw_structure": "defined",
+        "overall_maturity": "young_adult"
+      }
+    },
+    "name": "Sample User",
+    "nickname": "Demo",
+    "observation_count": 1
+  }
+}
