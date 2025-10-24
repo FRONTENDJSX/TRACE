@@ -2,7 +2,7 @@
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/yourusername/TRACE)
+[![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/frontendjsx/TRACE)
 
 TRACE is an advanced facial recognition system that uses anatomical-based recognition with AI-powered analysis. Unlike traditional face recognition systems, TRACE focuses on stable anatomical features that remain consistent across different poses, expressions, and lighting conditions.
 
