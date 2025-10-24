@@ -5,7 +5,6 @@
 [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/frontendjsx/TRACE)
 
 TRACE is the first open-source soft‑biometric human‑like perception engine — it doesn’t just scan faces, it understands people. It can recognize someone even if hair, angle, or accessories change, similar to how a human remembers a familiar person.
-TRACE is an advanced facial recognition system that uses anatomical-based recognition with AI-powered analysis. Unlike traditional face recognition systems, TRACE focuses on stable anatomical features that remain consistent across different poses, expressions, and lighting conditions.
 
 ## 🌟 Features
 
